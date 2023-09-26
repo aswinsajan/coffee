@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav {
+    height: 160px;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+#navimg{
+    padding: 15px;
+    margin:-30px 25px;
+}
+h4{
+    font-size: 120px;
+    font-family: 'Black Ops One', cursive;
+    text-shadow: 5px 6px 10px;
+    color: rgb(48, 3, 3);
+    font-weight: bolder;
+    
+}
+nav h4{
+    font-size: 120px;
+    font-family: 'Black Ops One', cursive;
+    text-shadow: 5px 6px 10px;
+    color: rgb(48, 3, 3);
+    font-weight: bolder;
+    
+}
+
+h5 {
+    color: rgb(48, 3, 3);
+    font-weight: bolder;
+    margin-top: 0px;
+    font-size: 40px;
+    width: 100%;
+}
+
+h5 {
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+.header{
+    align-items: center;
+    display: flex;
+}
+header img{
+    align-items: center;
+    margin-left: 250px;
+}
+
+h5{
+    position: sticky;
+
+    top: 0;
+}
+.wrapper{
+    margin: 100px auto;
+    width: 90%;
+}
+img{
+    max-width: 320px;
+    float: left;
+   
+    margin-right: 15px;
+}
+.text-box{
+    color: rgb(5, 5, 5);
+}
+.text-box h2{
+    font-size: 42px;
+}
+.text-box p{
+    font-size: 16px;
+    font-family: 'Russo One', sans-serif;
+}
+b{
+    font-weight: 300;
+}
+#contact form
+{
+    margin:0px;
+    width: 50%;
+    border: 3px solid rgb(5, 5, 5);
+    padding: 10px; 
+    background-color: rgba(255, 145, 0, 0.253);
+}
+
+.row2
+{
+    display: flex;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.col-4
+{
+    display: flex;
+    padding: 10px;
+}
+.col-4:hover
+{
+    
+    border: 1px solid rgb(253, 249, 249);
+    border-width:2px;
+    
+}
+.text{
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav{
+        width: 400px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 0px;
+        
+        
+    }
+   
+    
+    h4{
+        width: 400px;
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    .text{
+        width: 400px;
+        margin: 0px;
+        padding: 0px;
+    }
+    h4{
+        width: 400px;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    #navimg{
+        width: 90px;
+        height: 120px;
+        margin-top: -46px;
+    }
+    .navbar-brand h4{
+        font-size: 32px;
+        margin-left: -40px;
+    }
+    
+
+
+    .row{
+        background-color: rgba(255, 145, 0, 0.253);
+        width: 400px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    
+   
+    #contact form
+    {
+     width: 300px;
+     
+    }
+    .row2
+    {
+     width: 400px;
+     flex-direction: column;
+     margin-left: 0px;
+    }
+    footer{
+     width: 400px;
+     flex-direction: column;
+     margin-left: 0px;
+    }
+    #gallery
+    {
+     width: 400px;
+     flex-direction: row;
+     margin-left: 0px;
+    }
+    .col-4{
+        width: 400px;
+        flex-direction: row;
+        margin-left: 0px;
+    }
+    .wrapper{
+        width: 350px;
+        flex-direction: row;
+        margin-left: 0px;
+    }
+    
+     
+}
